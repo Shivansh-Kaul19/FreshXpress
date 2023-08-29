@@ -42,11 +42,11 @@
     width: 500px;
     height: 300px;
     border-radius: 30px;
-    filter: blur(2.5px);
+    filter: brightness(0.3);    
 }
 
 .t:hover {
-    filter: blur(0px);
+    filter: brightness(0.6);
     transition: 1s;
     cursor: pointer;
 }

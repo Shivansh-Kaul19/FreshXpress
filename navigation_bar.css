@@ -20,17 +20,16 @@ li, a {
 } 
 
 header {
-    border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     position: fixed;
-    height: 95px;
-    width: 1710px;
+    /* height: auto; */
+    width: 100%;
     display: flex;
     /*background-color: rgb(148, 207, 207);/*#fdecca; */
     backdrop-filter: blur(40px);
     justify-content: space-between;
-    margin-top: 3px;
-    border-radius: 40px;
+    margin-top: 0px;
+    border-radius: 0px;
     align-items: center;
     padding: 15px 2%;
     z-index: 1000;
@@ -40,7 +39,7 @@ header {
     height: 70px;
     width: 350px;
     margin-left: -12px;
-    border-radius: 40px;
+    border-radius: 20px;
 }
 
 .navigation {
@@ -71,7 +70,7 @@ button {
     padding: 9px 25px;
     background-color: rgb(55, 205, 243);
     border: none;
-    border-radius: 50px;
+    border-radius: 20px;
     cursor: pointer;
     transition: 0.3s;
 }
