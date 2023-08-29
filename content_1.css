@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content_1 {
+    /* background-color: #e8f7ee; */
+    scroll-behavior: smooth;
+    background-image: url("Images/Img_1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin-top: 0px;
+    height: 900px;
+    width: 1710px;
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* border-radius: 30px; */
+}
+
+.content_1 .para_1 {
+    font-family: 'Dancing Script', cursive;
+    padding-top: 240px;
+    padding-right: 100px;
+    font-size: 150px;
+    opacity: 1; 
+    color: black;
+}
+

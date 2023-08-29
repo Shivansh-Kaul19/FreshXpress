@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    height: 500px;
+    width: 1710px;
+    background-color: #e4f9ec;
+    text-align: center;
+}
+
+.footer .text {
+    display: flex;
+    justify-content: center;
+    gap: 500px;
+    margin-left: 500px;
+}
+
+.coloumn {
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.row {
+    margin-top: 30px;
+}
+.footer .row i {
+    background: transparent;
+    font-size: 40px;
+    padding: 10px;
+}

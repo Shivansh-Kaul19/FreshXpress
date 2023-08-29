@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.content_2 {
+    position: relative;
+    scroll-behavior: smooth;
+    background-image: url("Images/Content2_bottle.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin-top: 10px;
+    height: 850px;
+    width: 1710px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.content_2 .para_2 {
+    position: absolute;
+    top: 40%;
+    left: 4%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: 100;
+}

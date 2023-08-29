@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.all_contents {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-size: cover;
+    background-position: center;
+}
