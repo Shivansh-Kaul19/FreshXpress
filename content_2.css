@@ -6,7 +6,7 @@
 
 .all_contents .content_2 {
     display: flex;
-    background-color: aliceblue;
+    background-color: aliceblue; /* rgb(183, 249, 196);*/
     position: relative;
     scroll-behavior: smooth;
     background-repeat: no-repeat;
