@@ -8,8 +8,8 @@
     margin-top: 10px;
     margin-bottom: 0px;
     height: 500px;
-    width: 1710px;
-    background-color: #e4f9ec;
+    width: 100%;
+    background-color: aliceblue;
     text-align: center;
 }
 
@@ -28,6 +28,7 @@
 .row {
     margin-top: 30px;
 }
+
 .footer .row i {
     background: transparent;
     font-size: 40px;

@@ -4,25 +4,33 @@
     padding: 0;
 }
 
-.content_3 {
+.all_contents .content_3 {
+    position: relative;
+    background-color: aliceblue; /* rgb(226, 226, 226);*/
     position: relative;
     scroll-behavior: smooth;
-    background-image: url("Images/content_3_fruits.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
     background-position: center;
-    background-attachment: fixed;
-    margin-top: 10px;
-    height: 850px;
-    width: 1710px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 900px;
+    width: 100%;
 }
 
-.content_3 .para_3 {
-    position: absolute;
-    top: 40%;
-    left: 4%;
-    font-family: 'Times New Roman', Times, serif;
+.all_contents .content_3 .para_3 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 50px;
-    font-weight: 100;
+    line-height: 65px;
+    font-weight: 600;
+    word-spacing: 4px;
+    margin-top: 100px;
+}
+
+.all_contents .content_3 .discount_div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.all_contents .content_3 .discount_div .div_milk {
+    display: flex;
+    
 }
