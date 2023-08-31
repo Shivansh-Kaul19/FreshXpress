@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
+}   
 
 .all_contents .content_3 {
     position: relative;
@@ -11,114 +11,99 @@
     scroll-behavior: smooth;
     background-repeat: no-repeat;
     background-position: center;
-    height: 900px;
+    height: 1300px;
     width: 100%;
 }
 
-.all_contents .content_3 .round_border_content3 {
-    display: flex;
-    justify-content: center;
-    position: relative;
+.all_contents .content_3 .para_3 {
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    color: rgb(225, 130, 146);
+}
+.all_contents .content_3 .items {
+    width: 1500px;
+    height: 900px;
     margin-top: 60px;
     margin-left: 100px;
-    background-color: rgb(124, 254, 124);
-    height: 700px;
-    width: 1500px;
-    border-radius: 30px;
-    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 80px 0 rgba(0, 0, 0, 0.19);
+    background-color: aliceblue;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-rows: 290px 290px;
+    grid-template-columns: 430px 430px;
+    grid-gap: 120px 170px;
 }
 
-.all_contents .content_3 .round_border_content3 .para_3 {
-    position: absolute;
-    top: 10px;
-    left: 350px;
-    color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 50px;
-    line-height: 65px;
-    font-weight: 700;
-    word-spacing: 4px;
-    margin-top: 75px;
-}
-
-.all_contents .content_3 .round_border_content3 .order_discount {
-    position: absolute;
-    top: 250px;
-    left: 255px;
-    width: 1000px;
-    border-top: 2px solid white;
-}
-
-.all_contents .content_3 .round_border_content3 .discount_div {
-    position: absolute;
-    top: 190px; 
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 150px;
-    gap: 150px;
-}
-
-.all_contents .content_3 .discount_div .div1_milk .milk_img, .cheese_img, .fruits_img, .shake_img {
+.all_contents .content_3 .items .milk, .cheese, .fruits, .shake {
+    position: relative;
+    background-color: rgb(26, 169, 188);
+    width: 430px;
+    height: 340px;
     border-radius: 40px;
     box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transition: transform .2s;
 }
 
-.all_contents .content_3 .discount_div .div1_milk .milk_img:hover, .cheese_img:hover, .fruits_img:hover, .shake_img:hover{
+.all_contents .content_3 .items .milk:hover, .cheese:hover, .fruits:hover, .shake:hover {
     transform:scale(1.2);
 }
 
-.all_contents .content_3 .discount_div .div1_milk .milk_title, .cheese_title, .fruits_title, .shake_title {
-    text-align: center;
-    margin-top: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 25px;
-    font-style: italic;
-    color: blueviolet;
-    font-weight: 700;
-}
-
-/* .all_contents .content_3 .discount_div .div2_cheese .cheese_title {
-    text-align: center;
-    margin-top: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 25px;
-    font-style: italic;
-    color: blueviolet;
-    font-weight: 400;
-}
-
-.all_contents .content_3 .discount_div .div3_fruits .fruits_title {
-    text-align: center;
-    margin-top: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 25px;
-    font-style: italic;
-    color: blueviolet;
-    font-weight: 400;
-}
-
-.all_contents .content_3 .discount_div .div4_shake .shake_title {
-    text-align: center;
-    margin-top: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 25px;
-    font-style: italic;
-    color: blueviolet;
-    font-weight: 400;
-} */
-
-/* .all_contents .content_3 .discount_div .div2_cheese .cheese_img {
+.all_contents .content_3 .items .t {
     border-radius: 40px;
-    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.all_contents .content_3 .discount_div .div3_fruits .fruits_img {
-    border-radius: 40px;
-    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.all_contents .content_3 .items .milk .text1 {
+    position: absolute;
+    /* top: 300px;
+    left: 135px; */
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+    height: 50px;
+    width: 430px;
+    margin-top: -5px;
 }
 
-.all_contents .content_3 .discount_div .div4_shake .shake_img {
-    border-radius: 40px;
-    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-} */
+.all_contents .content_3 .items .text2 {
+    position: absolute;
+    /* top: 300px;
+    left: 135px; */
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+    height: 50px;
+    width: 430px;
+}
+
+.all_contents .content_3 .items .text3 {
+    position: absolute;
+    /* top: 300px;
+    left: 135px; */
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+    height: 50px;
+    width: 430px;
+}
+
+.all_contents .content_3 .items .text4 {
+    position: absolute;
+    /* top: 300px;
+    left: 135px; */
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+    height: 50px;
+    width: 430px;
+}

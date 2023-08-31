@@ -4,10 +4,10 @@
     padding: 0;
 }
 
-.content_5 {
+.content_6 {
     position: relative;
     scroll-behavior: smooth;
-    background-image: url("Images/content_4_shake.jpg");
+    background-image: url("Images/content_5_cheese.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -18,7 +18,7 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.content_5 .para_5 {
+.content_6 .para_6 {
     position: absolute;
     top: 40%;
     left: 4%;

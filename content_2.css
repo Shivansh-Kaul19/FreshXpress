@@ -36,9 +36,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
+    position: relative;
     top: 110px;
-    right: 0px;
+    left: 410px;
     height: 500px;
     width: 700px; 
     /*margin: 100px 0px 0px 0px;*/ /*top right bottom left*/

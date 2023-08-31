@@ -4,25 +4,120 @@
     padding: 0;
 }
 
-.content_4 {
+.all_contents .content_4 {
     position: relative;
+    background-color: aliceblue; /* rgb(226, 226, 226);*/
     scroll-behavior: smooth;
-    background-image: url("Images/content_3_fruits.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
     background-position: center;
-    background-attachment: fixed;
-    margin-top: 10px;
-    height: 850px;
-    width: 1710px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 900px;
+    width: 100%;
 }
 
-.content_4 .para_4 {
-    position: absolute;
-    top: 40%;
-    left: 4%;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 50px;
-    font-weight: 100;
+.all_contents .content_4 .round_border_content4 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 60px;
+    margin-left: 100px;
+    background-color: rgb(124, 254, 124);
+    height: 700px;
+    width: 1500px;
+    border-radius: 30px;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 80px 0 rgba(0, 0, 0, 0.19);
 }
+
+.all_contents .content_4 .round_border_content4 .para_4 {
+    position: absolute;
+    top: 10px;
+    left: 350px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    line-height: 65px;
+    font-weight: 700;
+    word-spacing: 4px;
+    margin-top: 75px;
+}
+
+.all_contents .content_4 .round_border_content4 .order_discount {
+    position: absolute;
+    top: 250px;
+    left: 255px;
+    width: 1000px;
+    border-top: 2px solid white;
+}
+
+.all_contents .content_4 .round_border_content4 .discount_div {
+    position: absolute;
+    top: 190px; 
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 150px;
+    gap: 150px;
+}
+
+.all_contents .content_4 .discount_div .div1_milk .milk_img, .cheese_img, .fruits_img, .shake_img {
+    border-radius: 40px;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: transform .2s;
+}
+
+.all_contents .content_4 .discount_div .div1_milk .milk_img:hover, .cheese_img:hover, .fruits_img:hover, .shake_img:hover{
+    transform:scale(1.2);
+}
+
+.all_contents .content_4 .discount_div .div1_milk .milk_title, .cheese_title, .fruits_title, .shake_title {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-style: italic;
+    color: blueviolet;
+    font-weight: 700;
+}
+
+/* .all_contents .content_3 .discount_div .div2_cheese .cheese_title {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-style: italic;
+    color: blueviolet;
+    font-weight: 400;
+}
+
+.all_contents .content_3 .discount_div .div3_fruits .fruits_title {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-style: italic;
+    color: blueviolet;
+    font-weight: 400;
+}
+
+.all_contents .content_3 .discount_div .div4_shake .shake_title {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-style: italic;
+    color: blueviolet;
+    font-weight: 400;
+} */
+
+/* .all_contents .content_3 .discount_div .div2_cheese .cheese_img {
+    border-radius: 40px;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.all_contents .content_3 .discount_div .div3_fruits .fruits_img {
+    border-radius: 40px;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.all_contents .content_3 .discount_div .div4_shake .shake_img {
+    border-radius: 40px;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+} */
