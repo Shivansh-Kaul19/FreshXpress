@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-.footer {
+.all_contents .footer {
     margin-top: 10px;
     margin-bottom: 0px;
     height: 500px;
@@ -13,14 +13,17 @@
     text-align: center;
 }
 
-.footer .text {
+/* .all_contents .footer .text {
     display: flex;
     justify-content: center;
     gap: 500px;
     margin-left: 500px;
-}
+} */
 
-.coloumn {
+.footer .text .coloumn {
+    display: flex;
+    justify-items: right;
+    flex-direction: column;
     margin-top: 30px;
     font-size: 20px;
 }
