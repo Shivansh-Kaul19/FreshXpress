@@ -30,10 +30,10 @@
 .all_contents .content_4 .round_border_content4 .para_4 {
     position: absolute;
     top: 10px;
-    left: 350px;
+    left: 450px;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 50px;
+    font-size: 65px;
     line-height: 65px;
     font-weight: 700;
     word-spacing: 4px;
@@ -42,8 +42,8 @@
 
 .all_contents .content_4 .round_border_content4 .order_discount {
     position: absolute;
-    top: 250px;
-    left: 255px;
+    top: 220px;
+    left: 250px;
     width: 1000px;
     border-top: 2px solid white;
 }
