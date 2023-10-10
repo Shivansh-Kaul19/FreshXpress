@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.back {
+    position: relative;
+    background-color: aliceblue;
+    width: 100%;
+    height: 1000px;
+}
+
+.back .para_back {
+    position: absolute;
+    padding-top: 90px;
+    margin-top: 100px;
+    background-color: rgb(235, 213, 255);/*rgb(255, 238, 215);*/
+    width: 95%;
+    height: max-content;
+    left: 45px;
+    border-radius: 20px;
+}
+
+.back .para_back .first_heading {
+    margin-left: 55px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.back .para_back .first_line {
+    position: absolute;
+    top: 210px;
+    left: 50px;
+    width: 400px;
+    border-top: 2px solid black; 
+}
+
+.back .para_back .second_heading {
+    margin-top: 150px;
+    margin-bottom: 150px;
+    margin-left: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.back .para_back .second_line {
+    position: absolute;
+    bottom: 540px;
+    left: 50px;
+    width: 750px;
+    border-top: 2px solid black; 
+}
+
+.back .para_back .para1, .para2, .para3, .para4, .para5, .para6, .para7, .para8, .para9, .para10, .para11 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    text-wrap: pretty;
+}
+
+.back .para_back .divpara1 .imgpara1, .imgpara2, .imgpara3, .imgpara4, .imgpara5 {
+    width: 400px;
+    height: 300px;
+}
+
+.back .para_back .divpara1 .imgpara1, .imgpara2, .imgpara3, .imgpara4, .imgpara5, .img1para1, .img2para2, .img3para3, .img4para4, .img5para5 {
+    border-radius: 20px;
+}
+
+.back .para_back .divpara1 {
+    margin-top: 180px;
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+
+.back .para_back .imgpara1 {
+    border-radius: 20px;
+    position: absolute;
+    right: 150px;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 80px 0 rgba(0, 0, 0, 0.19);
+}
+
+.back .para_back .para1 {
+    width: 900px;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    text-align: left;
+}
+
+
+
+
+.back .para_back .divpara2 {
+    margin-top: 300px;
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+
+.back .para_back .imgpara2 {
+    border-radius: 20px;
+    position: absolute;
+    left: 50px;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 80px 0 rgba(0, 0, 0, 0.19);
+}
+
+.back .para_back .para2 {
+    width: 900px;
+    position: absolute;
+    top: 100px;
+    right: 50px;
+    text-align: right;
+}
+
+
+
+
+
+.back .para_back .divpara3 {
+    margin-top: 300px;
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+
+.back .para_back .imgpara3 {
+    border-radius: 20px;
+    position: absolute;
+    right: 150px;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 80px 0 rgba(0, 0, 0, 0.19);
+}
+
+.back .para_back .para3 {
+    width: 900px;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    text-align: left;
+}
+
+
+
+
+
+.back .para_back .divpara4 {
+    margin-top: 300px;
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+
+.back .para_back .imgpara4 {
+    border-radius: 20px;
+    position: absolute;
+    left: 50px;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 80px 0 rgba(0, 0, 0, 0.19);
+}
+
+.back .para_back .para4 {
+    width: 900px;
+    position: absolute;
+    top: 100px;
+    right: 50px;
+    text-align: right;
+}
+
+
+
+
+
+
+.back .para_back .divpara5 {
+    margin-top: 300px;
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+
+.back .para_back .imgpara5 {
+    border-radius: 20px;
+    position: absolute;
+    right: 150px;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 80px 0 rgba(0, 0, 0, 0.19);
+}
+
+.back .para_back .para5 {
+    width: 900px;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    text-align: left;
+}
+
+
+
+
+
+
+.back .para_back .para6, .para7, .para8, .para9, .para10 {
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.back .para_back .para11 {
+    text-align: center;
+}

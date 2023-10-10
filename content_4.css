@@ -29,14 +29,17 @@
 
 .all_contents .content_4 .round_border_content4 .para_4 {
     position: absolute;
-    top: 10px;
-    left: 450px;
+    top: 20px;
+    left: 430px;
     color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 65px;
+    font-family: 'Dancing Script';
+    font-family: 'Kaushan Script';
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 70px;
     line-height: 65px;
-    font-weight: 700;
-    word-spacing: 4px;
+    font-weight: 100;
+    word-spacing: 7px;
     margin-top: 75px;
 }
 
@@ -70,9 +73,11 @@
 .all_contents .content_4 .discount_div .div1_milk .milk_title, .cheese_title, .fruits_title, .shake_title {
     text-align: center;
     margin-top: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Dancing Script';
+    font-family: 'Kaushan Script';
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 25px;
-    font-style: italic;
     color: blueviolet;
     font-weight: 700;
 }

@@ -87,6 +87,36 @@ button:hover {
 .Sign_Up {
     margin-left: 250px;
 }
+
+#products_drop {
+    background-color: white;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    visibility: hidden;
+    z-index: 1;
+}
+
+#products_drop a {
+    color: black;
+    line-height: 70px;
+}
+
+#products_drop a:hover {
+    line-height: 70px;
+}
+
+li:hover ul#products_drop {
+    opacity: 1;
+    top: 50px;
+    visibility: visible;
+}
+
+#products_drop li {
+    float: none;
+    width: 100%;
+}
 /* ------------------  OLD CODE ------------------  */
 
 /* .navigation {

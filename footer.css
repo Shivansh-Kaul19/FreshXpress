@@ -37,3 +37,8 @@
     font-size: 40px;
     padding: 10px;
 }
+
+.footer .text .coloumn .about_us {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}

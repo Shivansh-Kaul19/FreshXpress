@@ -5,46 +5,32 @@
 }
 
 .all_contents .content_2 {
-    display: flex;
     background-color: aliceblue; /* rgb(183, 249, 196);*/
     position: relative;
     scroll-behavior: smooth;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    /* background-attachment: fixed; */
-    /* margin-top: 10px; */
-    height: 890px;
+    height: 900px;
     width: 100%;
     /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 
 .all_contents .content_2 .round_border_content2 {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    margin-top: 100px;
-    margin-left: 100px;
-    background-color: rgb(196, 134, 240);
-    height: 700px;
-    width: 1500px;
-    border-radius: 30px;
-    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 80px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 0px;
+    background-color: rgb(252, 219, 184);
+    height: 870px;
+    width: 100%;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 80px 0 rgba(0, 0, 0, 0.19);
 }
 
 .all_contents .content_2 .round_border_content2 .back2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    top: 110px;
-    left: 410px;
     height: 500px;
     width: 700px; 
     /*margin: 100px 0px 0px 0px;*/ /*top right bottom left*/
 }
 
 .all_contents .content_2 .round_border_content2 .back2 .img2 {
+    position: absolute;
+    top: 220px;
+    right: 100px;
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -60,12 +46,14 @@
 
 .all_contents .content_2 .round_border_content2 .para_2 .trusted{
     position: absolute;
-    top: 300px;
+    top: 380px;
     left: 60px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 40px;
+    font-family: 'Dancing Script';
+    font-family: 'Kaushan Script';
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
     line-height: 60px;
-    word-spacing: 3xpx;
-    font-weight: 700;
-    color: white;
+    word-spacing: 8px;
+    color: rgb(0, 0, 0);
 }

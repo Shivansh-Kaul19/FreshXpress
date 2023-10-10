@@ -8,7 +8,9 @@
     <link rel="icon" type="image/x-icon" href="Images/Logo_2_new.jpeg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Kaushan+Script&family=Poppins:wght@900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Kaushan+Script&family=Poppins:wght@900&family=Roboto:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="All_content_flex.css">
     <link rel="stylesheet" href="navigation_bar.css">
     <link rel="stylesheet" href="content_1.css">
@@ -25,50 +27,57 @@
 
     <header>
 
-        <!---------------- Navigation Bar ----------------------------------->
+            <!---------------- Navigation Bar ----------------------------------->
 
 
-        <!-- <div class="logo">
-            <img src="Logo_2_new.jpeg" alt="logo">
-        </div> -->
-
-        <img class="logo" src="Images/New_Logo.png" alt="logo">
-        
-        <nav class="navigation">
-            <ul class="Navlist">
-            
-            <!-- <div class="search">
-                <input type="text" name="search" id="search" placeholder="Search">
+            <!-- <div class="logo">
+                <img src="Logo_2_new.jpeg" alt="logo">
             </div> -->
+
+            <img class="logo" src="Images/New_Logo.png" alt="logo">
+        
+            <nav class="navigation">
+                <ul class="Navlist">
             
-            <li class="home"><a href="#">Home</a></li>
-            <li class="menu"><a href="#">Menu</a></li>
-            <li class="products"><a href="#">Products</a></l>
-            <li class="about_us"><a href="#">About Us</a></li>
+                <!-- <div class="search">
+                    <input type="text" name="search" id="search" placeholder="Search">
+                </div> -->
+            
+                <li class="home"><a href="index.html">Home</a></li>
+                <li class="products"><a href="#">Products</a></l>
+                    <ul id="products_drop">
+                        <li><a href="pro_milk.html">milk</a></li>
+                        <li><a href="pro_cheese.html">cheese</a></li>
+                        <li><a href="pro_fruits.html">fruits</a></li>
+                        <li><a href="pro_shakes.html">shakes</a></li>
+                    </ul>
+                <li class="about_us"><a href="About_Us.html">About Us</a></li>
 
-            </ul>
+                </ul>
 
-        </nav>
+            </nav>
 
-        <a class="Sign_Up" href="Sign_Up.html"><button class="Right">Sign Up <i class='bx bx-spreadsheet' ></i></button></a> <!-- to nake it open in new tab, use it in this way -> <a class="Sign_Up" href="#" target='_main'>Sign Up</a> -->
-        <a class="Login" href="Login.html"><button class="Right">Login <i class='bx bx-log-in' ></i></button></a>
+            <a class="Sign_Up" href="Sign_Up.html"><button class="Right">Sign Up <i class='bx bx-spreadsheet' ></i></button></a> <!-- to nake it open in new tab, use it in this way -> <a class="Sign_Up" href="#" target='_main'>Sign Up</a> -->
+            <a class="Login" href="Login.html"><button class="Right">Login <i class='bx bx-log-in' ></i></button></a>
 
     </header>
 
-    <!-------------------------- Content 1 ------------------------------------>
     <main>
+            
+            <!-------------------------- Content 1 ------------------------------------>
+    
 
-        <div class="all_contents">
-            <div class="content_1">
+            <div class="all_contents">
+                <div class="content_1">
 
-                <div class="back1">
-                    <img class="img1" src="Images/content1_back.jpg" alt="backdrop" width="100%" height="900">
-                    <div class="para_1">
-                        <p class="fresh">FreshXpress</p>
-                        <hr class="fresh_quality">
-                        <p class="quality">Where food meets quality.<br>Enjoy delicious range of fresh dairy products</p>
-                    </div>
-                </div>  
+                    <div class="back1">
+                        <img class="img1" src="Images/content1_back.jpg" alt="backdrop" width="100%" height="900">
+                        <div class="para_1">
+                            <p class="fresh">FreshXpress</p>
+                            <hr class="fresh_quality">
+                            <p class="quality">Where food meets quality.<br>Enjoy delicious range of fresh dairy products</p>
+                        </div>
+                    </div>  
                 
             </div>
 
@@ -76,12 +85,13 @@
 
             <div class="content_2">
                 <div class="round_border_content2">
-                    <div class="back2">
-                        <img class="img2" src="Images/Content2_bottle.jpg" alt="backdrop" width="500" height="350">
-                    </div>
                     <div class="para_2">
                         <p class="trusted">Purity and <span class="fresh">fresh</span>ness guaranteed<br>Get fresh items at your doorstep instantly</p>
                     </div>
+                    <div class="back2">
+                        <img class="img2" src="Images/Content2_bottle.jpg" width="550" height="400" alt="backdrop" >
+                    </div>
+                    
                 </div>
             </div>
 
@@ -97,31 +107,39 @@
                 <div class="items">
 
                     <div class="milk">
-                        <img src="Images/front_milk.jpg" class="t" width="430" height="290">
-                        <div class="text1">
-                            Milk Bottles
-                        </div>
+                        <a href="pro_milk.html">
+                            <img src="Images/front_milk.jpg" class="t" width="430" height="290">
+                            <div class="text1">
+                                Milk
+                            </div>
+                        </a>
                     </div>
 
                     <div class="cheese">
-                        <img src="Images/front-cheese.jpg" class="t" width="430" height="290"> 
-                        <div class="text2">
-                            Cheese
-                        </div>
+                        <a href="pro_cheese.html">
+                            <img src="Images/front_cheese.jpg" class="t" width="430" height="290"> 
+                            <div class="text2">
+                                Cheese
+                            </div>
+                        </a>
                     </div>
 
                     <div class="fruits">
-                        <img src="Images/Front_Fruit.jpg" class="t" width="430" height="290">
-                        <div class="text3">
-                            Fruits
-                        </div>
+                        <a href="pro_fruits.html">
+                            <img src="Images/front_fruits.jpg" class="t" width="430" height="290">
+                            <div class="text3">
+                                Fruits
+                            </div>
+                        </a>
                     </div>
 
                     <div class="shake">
-                        <img src="Images/Front_Milkshake.jpg" class="t" width="430" height="290">
-                        <div class="text4">
-                            Shakes
-                        </div>
+                        <a href="pro_shakes.html">
+                            <img src="Images/front_shakes.jpg" class="t" width="430" height="290">
+                            <div class="text4">
+                                Shakes
+                            </div>
+                        </a>
                     </div>
 
                         
@@ -167,13 +185,17 @@
             <div class="footer">
                 <div class="text">
                     <div class="coloumn">
-                        <h3 class="about_us">Home</h3>
+                        <h3 class="about_us"><a href="index.html">Home</a></h3>
                         <br>
-                        <h3 class="about_us">Menu</h3>
+                        <h3 class="about_us"><a href="pro_milk.html">Milk</a></h3>
                         <br>
-                        <h3 class="about_us">Products</h3>
+                        <h3 class="about_us"><a href="pro_cheese.html">Cheese</a></h3>
                         <br>
-                        <h3 class="about_us">About Us</h3>
+                        <h3 class="about_us"><a href="pro_fruits.html">Fruits</a></h3>
+                        <br>
+                        <h3 class="about_us"><a href="pro_shakes.html">Shakes</a></h3>
+                        <br>
+                        <h3 class="about_us"><a href="About_Us.html">About Us</a></h3>
                     </div>
                     <div class="row">
                         <u><h2 class="contact_us">Contact Us</h2></u>

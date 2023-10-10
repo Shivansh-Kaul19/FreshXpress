@@ -5,30 +5,33 @@
 }   
 
 .all_contents .content_3 {
-    position: relative;
     background-color: aliceblue; /* rgb(226, 226, 226);*/
     position: relative;
     scroll-behavior: smooth;
-    background-repeat: no-repeat;
-    background-position: center;
     height: 1300px;
     width: 100%;
 }
 
 .all_contents .content_3 .para_3 {  
     width: 100%;
-    height: 200px;
-    padding-top: 90px;
+    height: 250px;
+    padding-top: 100px;
+    margin-top: 90px;
     text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 45px;
-    font-weight: 700;
-    color: rgb(225, 130, 146);
+    font-family: 'Dancing Script';
+    font-family: 'Kaushan Script';
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 55px;
+    line-height: 60px;
+    word-spacing: 8px;
+    color: black;
 }
+
 .all_contents .content_3 .items {
     width: 1500px;
     height: 900px;
-    margin-top: 60px;
+    margin-top: 10px;
     margin-left: 100px;
     background-color: aliceblue;
     display: grid;
@@ -41,20 +44,21 @@
 
 .all_contents .content_3 .items .milk, .cheese, .fruits, .shake {
     position: relative;
-    background-color: rgb(26, 169, 188);
+    background-color: rgb(224, 94, 239);
     width: 430px;
     height: 340px;
-    border-radius: 40px;
+    border-radius: 20px;
     box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transition: transform .2s;
 }
 
 .all_contents .content_3 .items .milk:hover, .cheese:hover, .fruits:hover, .shake:hover {
     transform:scale(1.2);
+    cursor: pointer;
 }
 
 .all_contents .content_3 .items .t {
-    border-radius: 40px;
+    border-radius: 20px;
 }
 
 .all_contents .content_3 .items .milk .text1 {
@@ -62,10 +66,13 @@
     /* top: 300px;
     left: 135px; */
     text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Dancing Script';
+    font-family: 'Kaushan Script';
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 30px;
     color: white;
-    font-weight: 600;
+    font-weight: 100;
     height: 50px;
     width: 430px;
     margin-top: -5px;
@@ -76,10 +83,13 @@
     /* top: 300px;
     left: 135px; */
     text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Dancing Script';
+    font-family: 'Kaushan Script';
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 30px;
     color: white;
-    font-weight: 600;
+    font-weight: 100;
     height: 50px;
     width: 430px;
 }
@@ -89,10 +99,13 @@
     /* top: 300px;
     left: 135px; */
     text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Dancing Script';
+    font-family: 'Kaushan Script';
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 30px;
     color: white;
-    font-weight: 600;
+    font-weight: 100;
     height: 50px;
     width: 430px;
 }
@@ -102,10 +115,13 @@
     /* top: 300px;
     left: 135px; */
     text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Dancing Script';
+    font-family: 'Kaushan Script';
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 30px;
     color: white;
-    font-weight: 600;
+    font-weight: 100;
     height: 50px;
     width: 430px;
 }

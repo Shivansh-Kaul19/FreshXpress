@@ -60,11 +60,13 @@
     position: absolute;
     top: 380px;
     left: 60px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Dancing Script';
+    font-family: 'Kaushan Script';
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 50px;
     line-height: 70px;
-    word-spacing: 4px;
+    word-spacing: 8px;
     font-weight: 700;
-    font-style: italic;
     color: white;
 }
